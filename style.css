@@ -63,7 +63,20 @@ header button{
 
 
 
-
+/*-----*/
+.bounce{
+    animation-duration: 0.25s;
+    animation-name: jump;
+  
+  }
+  @keyframes jump {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+  }
 
 
 
