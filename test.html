@@ -1,4 +1,4 @@
-test
+<button onclick="setcookie()">set cookie test</button>
 
 
 
@@ -8,6 +8,10 @@ test
 
 
 <script>
+    function setcookie() {
+        
+    
     document.cookie = "AC-C=ac-c;expires=Fri, 31 Dec 9999 23:59:59 GMT;path=/;SameSite=Strict";
     alert( document.cookie );
+    }
 </script>
